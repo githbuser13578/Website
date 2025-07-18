@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #70c9e5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header .logo-container img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('path_to_your_first_image.jpg'); /* Use one of your project images here */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff8e1;
+    padding: 40px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #004c56;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services ul li {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #e0f7fa;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #004c56;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #004c56;
+    font-size: 18px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-image: url('path_to_your_second_image.jpg'); /* Use another image here */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
